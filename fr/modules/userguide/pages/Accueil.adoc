@@ -1,0 +1,18 @@
+= Accueil
+:page-en: Home.adoc
+
+Texte d'intro
+
+
+
+[.tab, id="Un onglet"]
+== Un onglet
+
+Du texte
+
+
+
+[.tab, id="Un autre onglet"]
+== Un autre onglet
+
+Un autre texte

@@ -1,0 +1,18 @@
+= Home
+:page-fr: Accueil.adoc
+
+Intro text
+
+
+
+[.tab, id="Some Tab"]
+== Some Tab
+
+Some text
+
+
+
+[.tab, id="Another Tab"]
+== Another Tab
+
+Some other text

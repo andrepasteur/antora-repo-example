@@ -1,0 +1,31 @@
+site:
+  title: Example
+  url: https://example.com
+  start_page: en:userguide:Home.adoc
+content:
+  branches: HEAD
+  sources:
+    - url: .
+      start_path: en
+      version: ~
+    - url: .
+      start_path: fr
+      version: ~
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./node_modules/@outscale/osc-doc-framework/antora-theme
+  output_dir: _
+output:
+  dir: ./build/site
+  clean: true
+runtime:
+  fetch: true
+antora:
+  extensions:
+    - require: ./node_modules/@antora/lunr-extension
+    - require: ./node_modules/@outscale/osc-doc-framework/antora-search-page-extension
+    - require: ./node_modules/antora-navigator-extension
+    - require: ./node_modules/@outscale/osc-doc-framework/antora-extension
+    - require: ./node_modules/@outscale/osc-doc-framework/antora-rss-extension

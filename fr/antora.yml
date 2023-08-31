@@ -1,0 +1,12 @@
+name: fr
+title: Some module in FR
+nav:
+  - modules/userguide/nav.adoc
+asciidoc:
+  attributes:
+    page-editthispage-text: Voir source
+    page-search-text: Rechercher
+    page-copyright-text: Tous droits réservés.
+    page-legalmentions-url: Mentions-légales.html
+    page-legalmentions-text: Mentions légales
+    page-antoramention-text: Ce site a été construit avec

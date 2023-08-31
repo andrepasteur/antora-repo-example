@@ -1,0 +1,14 @@
+== antora-repo-example
+
+Example of an Antora repository that uses https://github.com/outscale/osc-doc-framework[osc-doc-framework].
+
+[source,shell]
+----
+$ git clone https://github.com/andrepasteur/antora-repo-example.git
+$ cd antora-repo-example
+
+$ git clone https://github.com/outscale/osc-doc-framework.git
+$ npm install ./osc-doc-framework
+
+$ npx antora antora-playbook.yml
+----
