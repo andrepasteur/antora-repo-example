@@ -10,6 +10,8 @@ Texte d'intro
 
 Du texte
 
+Il va y avoir une infobulle sur le mot "VM" car le script d'infobulles auto-détecte ce mot.
+
 
 
 [.tab, id="Un autre onglet"]

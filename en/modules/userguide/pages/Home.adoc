@@ -10,6 +10,8 @@ Intro text
 
 Some text
 
+There will be a tooltip on the word "VM" because the tooltip script auto-detects that word.
+
 
 
 [.tab, id="Another Tab"]

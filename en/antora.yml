@@ -4,6 +4,7 @@ nav:
   - modules/userguide/nav.adoc
 asciidoc:
   attributes:
+    page-lang: en
     page-editthispage-text: View source
     page-search-text: Search
     page-copyright-text: All rights reserved.
