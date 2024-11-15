@@ -1,14 +1,27 @@
 == antora-repo-example
 
-Example of an Antora repository that uses https://github.com/outscale/osc-doc-framework[osc-doc-framework].
+Example of a *minimal* Antora repository that uses https://github.com/outscale/osc-doc-framework[osc-doc-framework].
 
+1. Make sure you have https://nodejs.org[`node`] 20.x.x installed.
+
+2. Clone this repository and enter it:
++
 [source,shell]
 ----
 $ git clone https://github.com/andrepasteur/antora-repo-example.git
 $ cd antora-repo-example
+----
 
-$ git clone https://github.com/outscale/osc-doc-framework.git
-$ npm install ./osc-doc-framework
+3. Install osc-doc-framework via package.json:
++
+[source,shell]
+----
+$ npm ci
+----
 
+4. Generate the docs:
++
+[source,shell]
+----
 $ npx antora antora-playbook.yml
 ----

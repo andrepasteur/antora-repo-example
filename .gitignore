@@ -1,3 +1,2 @@
-build/
-node_modules/
-osc-doc-framework/
+build
+node_modules

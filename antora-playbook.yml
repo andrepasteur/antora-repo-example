@@ -13,9 +13,8 @@ content:
       version: ~
 ui:
   bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    url: ./node_modules/@outscale/osc-doc-framework/antora-ui/build/ui-bundle.zip
     snapshot: true
-  supplemental_files: ./node_modules/@outscale/osc-doc-framework/antora-theme
   output_dir: _
 output:
   dir: ./build/site
@@ -24,8 +23,11 @@ runtime:
   fetch: true
 antora:
   extensions:
-    - require: ./node_modules/@antora/lunr-extension
-    - require: ./node_modules/@outscale/osc-doc-framework/antora-search-page-extension
-    - require: ./node_modules/antora-navigator-extension
+    - require: ./node_modules/@outscale/osc-doc-framework/antora-ui
+    - require: '@antora/lunr-extension'
+    - require: ./node_modules/@outscale/osc-doc-framework/antora-special-pages-extension
+    - require: antora-navigator-extension
     - require: ./node_modules/@outscale/osc-doc-framework/antora-extension
+    - require: '@antora/collector-extension'
     - require: ./node_modules/@outscale/osc-doc-framework/antora-rss-extension
+    - require: ./node_modules/@outscale/osc-doc-framework/antora-tooltipper-extension

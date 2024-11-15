@@ -1,5 +1,22 @@
 {
   "dependencies": {
-    "@outscale/osc-doc-framework": "file:osc-doc-framework"
+    "@outscale/osc-doc-framework": "github:outscale/osc-doc-framework"
+  },
+  "overrides": {
+    "openapi-examples-validator": {
+      "json-schema-ref-parser": "npm:@apidevtools/json-schema-ref-parser@^11.6.1",
+      "jsonpath-plus": "^10.1.0"
+    },
+    "shins": {
+      "ejs": "^3.1.10",
+      "markdown-it": "^14.1.0",
+      "sanitize-html": "^2.13.0"
+    },
+    "widdershins": {
+      "httpsnippet": "npm:@readme/httpsnippet@10.0.5",
+      "markdown-it": "^14.1.0",
+      "swagger2openapi": "^7.0.8",
+      "yargs": "^17.7.2"
+    }
   }
 }
