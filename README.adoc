@@ -1,4 +1,4 @@
-== antora-repo-example
+= antora-repo-example
 
 Example of a *minimal* Antora repository that uses https://github.com/outscale/osc-doc-framework[osc-doc-framework].
 
