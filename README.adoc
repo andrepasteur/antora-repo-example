@@ -2,7 +2,7 @@
 
 Example of a *minimal* Antora repository that uses https://github.com/outscale/osc-doc-framework[`osc-doc-framework`].
 
-1. Make sure you have https://nodejs.org[`node`] 20.x.x installed.
+1. Make sure you have https://nodejs.org[`node`] 24.x.x installed.
 
 2. Clone this repository and enter it:
 +

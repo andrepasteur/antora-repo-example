@@ -2,6 +2,10 @@ name: en
 title: Some module in EN
 nav:
   - modules/userguide/nav.adoc
+ext:
+  antora-tooltipper-extension:
+    tooltips:
+      - {find: "[Vv]irtual [Mm]achines? \\(VMs?\\)|[Vv]irtual machines?|VMs?", tooltip: "instance in AWS-Compliant APIs"}
 asciidoc:
   attributes:
     page-lang: en
